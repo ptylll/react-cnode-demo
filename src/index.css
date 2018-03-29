@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+ul li{
+  list-style: none
+}
+.flex{
+  display: flex;
+}
+.Box{
+  display: 'block';
+  margin-Bottom: 600; 
+  color: '#108ee9';
+}
+#tab-bar.demo {
+  display: flex;
+  flex-direction: column;
+}
+#tab-bar .demoName {
+  height: 40px;
+}
+#tab-bar .demo-preview-item .am-tab-bar {
+  background-color: white;
+}
+
+.title{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 15px;
+}
+.detail{
+  font-size: 14px;
+  overflow: hidden;
+}
+.markdown-text{
+  padding: 0 20px;
+  line-height: 25px;
+}
+.markdown-text h2{
+  padding: 10px 0;
+}
+.detail p{
+  padding: 10px 0 0 0;
+}
+.detail p img{
+  text-align: center;
+}
+.detail img{
+  max-width: 100%;
+  text-align: center;
+}
+.SiginInput{
+  height: calc(100vh - 45px);
+  position: relative;
+  box-sizing: border-box;
+}
+.SiginCom{
+  position: absolute;
+  width: calc(100vw - 20%);
+  padding: 0 10%;
+  top: 50%;
+  transform: translateY(-50%)
+}
+.SiginCom a{
+  margin-top: 20px;
+  height: 40px;
+  line-height: 40px;
+}
+.SiginCom input{
+    width: 100%;
+    height: 35px;
+    text-indent: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #999;
+}
+.UserContent{
+  position: relative;
+  overflow: hidden;
+  background-color: #108ee9;
+}
+.UserTop{
+  padding: 15px;
+  margin: 10px;
+  background-color: #108ee9;
+}
+.Userimg{
+  height: 80px;
+  width: 80px;
+  margin: 0 auto;
+}
+.Userimg img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.UserName{
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.list-view li{
+  position: relative;
+  list-style: none;
+  border-bottom: 1px solid #ececec;
+}
+.list-view li a{
+  margin:0 10px;
+  display: block;
+}
+.list-text {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-box;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  font-weight: 400;
+  height: 45px;
+  justify-content:space-between;
+}
+.list-title{
+  overflow: hidden;
+  line-height: 45px;
+  flex-grow: 1;
+  max-width: 90%;
+  display: block;
+}
+.list-icon{
+  position: absolute;
+  display: block;
+  right: 3px;
+  top: 14px;
+}
+.announce-title{
+  height: 50px;
+}
+.announce-title,.announce-text{
+  text-indent: 10px;
+  outline: none;
+  border: 0;
+  width: 100%;
+  text-align: #ccc;
+}
+.announce-text{
+  margin-top: 15px;
+}
+.Message-com{
+  display: flex;
+  display: -webkit-box;
+  align-items: center;
+  margin: 10px 0 0 0;
+  padding:0 10px 10px 10px;
+  border-bottom: 1px solid #ccc;
+}
+.Message-author{
+  height: 50px;
+  width: 50px;
+}
+.Message-author img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.Message-Text{
+  margin-left: 10px;
+}
+.Message-title{
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+.Message-reply{
+  margin-top: 10px;
+  overflow: hidden;
+  color: #333;
+}
+.Message-reply em{
+  font-style: normal;
+  color: #108ee9;
+  margin-left: 5px;
+}
+
+.reply-list{
+  background-color: #ccc;
+  height: 40px;
+  margin-top: 20px;
+}
+.reply-title{
+  line-height: 40px;
+  margin: 0 10px;
+}
+.reply-header{
+  
+}
+.reply-img{
+  height: 40px;
+  width: 40px;
+}
+.reply-img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.reply-User span{
+  font-size: 14px;
+}
+.reply-item{
+  width: 100%;
+}
+.reply-item ul{
+  width: 100%;
+  overflow: hidden;
+}
+.reply-li{
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+.reply-com{
+  overflow: hidden;
+  padding:0 10px;
+  line-height: 24px;
+  font-size: 13px;
+}
+.reply-Mian img{
+  width: 100%;
+}
+.reply-Mian .markdown-text{
+  width: 100%;
+}
+.reply-Mian .markdown-text{
+  padding: 5px 0px;
+  line-height: 25px;
+}
+.markdown-text pre{
+  max-width: 100%;
+}
+.prettyprint{
+  overflow-x: scroll;
+  background-color: #eee;
+}
+.reply-User a{
+  color: #108ee9
+}

@@ -1,0 +1,16 @@
+.LoginInt{
+    font-size: 16px;
+    text-align: center;
+    margin: 15px auto;
+}
+.LoginInt a{
+    color: #108ee9;
+}
+.loadingBoxs{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}

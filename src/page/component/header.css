@@ -1,0 +1,66 @@
+.Content{
+    position: absolute;
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #fff;
+    display: block;
+}
+.HeaderContent .am-tabs-pane-wrap{
+    /* height: calc(100vh - 50px); */
+    height: 100vh;
+    bottom: 50px;
+}
+.loadingCom{
+    position: absolute;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgba(58,58,58,.9);
+    line-height: 1.5;
+    padding: 9px 15px;
+    left: 50%;
+    margin-top: 50%;
+    margin-left: -45px;
+}
+.loadingCom h3{
+    color: #fff;
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 6px;
+}
+.loadingBox{
+    height: 30px;
+    width: 30px;
+    border: 2px solid #fff;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border-left: 2px solid #108ee9;
+    animation: loading linear 1s infinite ;
+}
+@keyframes loading
+{
+    0%{transform: rotate(0)}
+    100%{transform: rotate(360deg)}
+}
+
+@-moz-keyframes loading /* Firefox */
+{
+    0%{transform: rotate(0)}
+    100%{transform: rotate(360deg)}
+}
+
+@-webkit-keyframes loading /* Safari 和 Chrome */
+{
+    0%{transform: rotate(0)}
+    100%{transform: rotate(360deg)}
+}
+
+@-o-keyframes loading /* Opera */
+{
+    0%{transform: rotate(0)}
+    100%{transform: rotate(360deg)}
+}
+.loading{
+    text-align: center;
+    margin-top: 100px;
+}
